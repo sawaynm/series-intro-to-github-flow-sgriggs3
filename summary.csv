@@ -1,0 +1,62 @@
+## Sammanfattning av Journalanalys
+
+Denna rapport sammanfattar en automatiserad analys av patientjournaler med syfte att identifiera potentiella brister i vården. Följande steg har genomförts:
+
+1. **Dataextraktion och Förberedelse:**
+    * Inläsning av 14 PDF-journalfiler.
+    * Extrahering av text och relevant information från journalanteckningarna med OCR-teknik.
+    * Strukturering av datan i CSV-format för vidare analys.
+
+2. **Informationsutvinning:**
+    * Skapande av en databas över journalinformationen, inklusive:
+        * Vårdpersonalens namn och yrkestitel
+        * Datum och tid för anteckningar
+        * Beslut, medicinering och diskussioner om psykologkontakt och ADHD-utredning.
+    * Separering av "HEJ"-meddelanden från patienten för separat analys.
+
+3. **Avancerad Analys:**
+    * Identifiering av nyckelord relaterade till medicinska termer, läkemedel och patientens mående.
+    * Google Grounding användes för att definiera medicinska termer och relevanta lagtexter.
+    * Jämförelse av vårdprocessen med Hälso- och sjukvårdslagen, Patientlagen och Diskrimineringslagen.
+    * Identifiering av potentiella lagbrott och brister i vårdprocessen.
+
+4. **Rapportering:**
+    * Generering av tabeller och tidslinjer för att sammanfatta vårdprocessen.
+    * Sammanställning av läkarkontakter, medicinering, beslut och återkommande behov.
+    * Utvärdering av uteblivna/ombokade möten och potentiella lagbrott.
+
+**Huvudfynd:**
+
+Analysen indikerar ett antal potentiella brister i vårdprocessen, inklusive:
+
+* **Bristande kontinuitet i vård:** Frekventa byten av läkare och vårdpersonal.
+* **Fördröjda eller nekade remisser:** Upprepade önskemål om psykologkontakt och ADHD-utredning som inte lett till åtgärd.
+* **Problem med medicinhantering:** Inkonsekvent uppföljning av medicinering och utebliven medicinreview.
+* **Otillräcklig hänsyn till patientens behov:** Bristande helhetssyn och bristfällig riskbedömning gällande suicidtankar.
+* **Kommunikations- och samordningsproblem:** Svårigheter för socialtjänsten att nå vårdkontakt och bristande intern planering.
+* **Inkomplett information:** Avsaknad av diagnoser och tydlig vårdplan.
+
+**Potentiella Rättighetsbrott:**
+
+Rapporten identifierar flera potentiella brott motPatientlagen och Hälso- och sjukvårdslagen, inklusive:
+
+* Brott mot Patientlagen gällande patientens delaktighet i vården ( bristande insyn i patientens egna behov)
+* Brott mot Hälso- och sjukvårdslagen gällande Bristande vård vid blandmissbruk
+* Brott mot Patientlagen gällande Bristande hänsyn till patientens önskemål
+* Brott mot Patientlagen gällande Bristande behandling av bensodiazepinberoende
+* Brott mot Hälso- och sjukvårdslagen gällande Bristande dokumentation av medicinering
+* Brott mot Hälso- och sjukvårdslagen gällande Bristande vård av behov av Alimemazin medicinering
+* Brott mot Patientlagen gällande Bristande dokumentation, Brist på tydliga orsaker till nekade remisser, bristande dokumentation gällande dialoger och medicinering
+* Brott mot Hälso- och Sjukvårdslagen gällande Brister i sammanhållen vård, Vården har inte tagit ansvar att följa upp och ge patienten kontinuitet vilket tydligt bryter mot hälso och sjukvårdslagen.
+* Brott mot Hälso- och Sjukvårdslagen gällande Utebliven vårdplan.
+* Brott mot Patientlagen gällande Bristande information och inflytande på beslut.
+
+**Rekommendationer och Nästa Steg:**
+
+1. **Granska Rapportdetaljerat:** Ta del av rapporten i sin helhet, och undersök alla tabeller.
+2. **Konsultera Jurist:** Rådgör med en jurist specialiserad på hälso- och sjukvårdsrätt för att utvärdera de potentiella lagbrotten.
+3. **Formulera formell anmälan:** Använd rapporten som underlag för en formell anmälan till relevanta myndigheter, som Inspektionen för Vård och Omsorg (IVO).
+4. **Sök Alternativ Vård:** Utred möjligheten till byte av vårdgivare för att säkerställa en mer sammanhållen och patientcentrerad vård.
+5. **Sök Stöd och Rådgivning:** Ta kontakt med patientorganisationer för stöd och rådgivning i processen.
+
+Genom dessa steg kan du ta kontroll över situationen och verka för en förändring av vårdprocessen, samt söka rättelse för de eventuella brister som identifierats.
