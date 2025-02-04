@@ -41,6 +41,25 @@ If you'd like to make a profile README, use the quickstart instructions below or
 4. If you created a new branch for your file, open and merge a pull request on your branch.
 5. Lastly, we'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/community/discussions/categories/github-education).
 
+### Making Your Repository Private
+
+To make your repository private, follow these steps:
+
+1. Navigate to the main page of your repository on GitHub.
+2. Under your repository name, click on "Settings".
+3. In the "Settings" tab, scroll down to the "Danger Zone" section.
+4. Click on "Change repository visibility".
+5. Select "Make private" and read the warnings.
+6. Type the name of the repository to confirm and click "I understand, make this repository private".
+
+### Importance of Keeping the Repository Private
+
+Keeping your repository private is crucial for several reasons:
+
+- **Security**: Protects sensitive information from being publicly accessible.
+- **Control**: Allows you to control who has access to your code and data.
+- **Compliance**: Ensures compliance with privacy regulations and policies.
+
 Check out these resources to learn more or get involved:
 
 - Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
